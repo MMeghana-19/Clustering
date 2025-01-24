@@ -26,7 +26,7 @@ def prediction(input_data):
 
 def main():
     st.title('HELP International Foundation')
-    st.subheader('This application helps to classify the countrys need for funds on the basis of its socio-economic and health factors')
+    st.subheader('''This application helps to classify the country's need for funds on the basis of its socio-economic and health factors''')
     child_mort = st.text_input('Enter child mortality rate')
     exports = st.text_input('Enter % of GDP spent on exports')
     health = st.text_input('Enter the % of GDP spent on health')
